@@ -8,5 +8,5 @@ node
         withSonarQubeEnv() {
           bat "mvn clean verify sonar:sonar -Dsonar.projectkey=test"
              }
-         }
+         } 
 }
